@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Marvel', sans-serif;
+    background-color: #504a4a;
+	text-align: center;
+	overflow:hidden;
+}
+
+#naslov {
+	float: left;
+	margin-left: 40%;
+	margin-bottom:0;
+	margin-top:0;
+}
+
+/* Uredjivanje navBara */
+.nav ul {
+    list-style-type: none;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 16pt;
+    background-color: #504a4a;
+    border-radius: 5px;
+	position:fixed;
+	
+}
+
+.nav li {
+    margin-top: 25px;
+    padding:0 10px;
+    border: 2px #e23636 solid;
+    border-radius: 5px;
+}
+
+.nav li:hover {
+    color: #518cca;
+    border: 2px #518cca solid;
+}
+
+.nav a {
+    text-decoration: none;
+    color: white;
+}
+
+.bar {
+	background-color: #a0a09f;
+}
+
+#marvel {
+    color: #ff0013;
+    font-size: 20pt;
+    font-weight: 900;
+}
+
+.opis {
+	float:left;
+	text-align: justify;
+	padding:15px;
+	margin-left:16%;
+	margin-right:2%;
+	margin-top:0;
+	margin-bottom:0;
+	font-weight: 900;
+	font-size:21px;
+	color: #b6b7b2;
+	
+}
+
+.footer p{
+	font-size: 10pt;
+	color: white;
+	margin-top: 10px;
+	margin-left:12%;
+}
+
+.video {
+	margin-left:13%;
+}

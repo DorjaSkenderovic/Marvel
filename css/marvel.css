@@ -1,0 +1,106 @@
+/*stil za naslovnu stranu*/
+
+body {
+	padding-top: 40px;
+	background-color: #e23636;
+	background-size: 100% 100%;
+	text-align: center;
+	font-family: 'Marvel', sans-serif;
+	overflow:hidden;
+}
+
+.heroji {
+	padding: 5px;
+	display: table;
+	margin-left: auto;
+    margin-right: auto;
+}
+
+.polje {
+	height: 100px;
+	width: 250px;
+	float: left;
+	margin: 5px 10px;
+	border: 3px white solid;
+	border-radius: 8px;
+	
+}
+
+.polje:hover {
+	opacity: 0.8;
+}
+
+.text {
+	color:#FFFFE5	;
+	font-family:'Marvel',sans-serif;
+	visibility: hidden;
+	text-transform: uppercase; /*velika slova*/
+	font-weight: 900;
+	line-height: 27px;
+	font-size:30px;
+	letter-spacing: 3px;
+} 
+
+.polje:hover > .text {
+	visibility: visible;
+}
+
+.panther /*black panther*/ {
+	background-image: url(../images/panther.jpg);
+	background-size: 100%100%;
+}
+
+.captain /*captain america*/ {
+	background-image: url(../images/captain.jpg);
+	background-size: 100%100%;
+}
+
+.strange /*doctor strange*/ {
+	background-image: url(../images/strange.jpg);
+	background-size: 100%100%;
+}
+
+.galaxy /*guardians of galaxy*/{
+	background-image: url(../images/galaxy.jpg);
+	background-size: 100%100%;
+}
+
+.iron /*iron man*/ {
+	background-image: url(../images/iron.jpg);
+	background-size: 100%100%;
+}
+
+.spiderman /*spiderman*/ {
+	background-image: url(../images/spiderman.jpg);
+	background-size: 100%100%;
+}
+
+.avengers /*the avengers*/ {
+	background-image: url(../images/avengers.jpg);
+	background-size: 100%100%;
+}
+
+.venom /*venom*/{
+	background-image: url(../images/venom.jpeg);
+	background-size: 100%100%;
+}
+
+.thor /*thor*/{
+	background-image: url(../images/thor.jpg);
+	background-size: 100%100%;
+}
+
+.footer p{
+	font-size: 10pt;
+	color: white;
+	margin-top:2px;
+}
+	
+	
+	
+	
+	
+	
+	
+	
+	
